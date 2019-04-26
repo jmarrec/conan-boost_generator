@@ -17,12 +17,12 @@ import sys
 
 class BoostGenerator(ConanFile):
     name = "boost_generator"
-    version = "1.69.0"
+    version = "1.70.0"
     url = "https://github.com/bincrafters/conan-boost_generator"
     description = "Conan build generator for boost libraries http://www.boost.org/doc/libs/1_69_0/libs/libraries.htm"
     license = "BSL"
     exports = "boostcpp.jam", "jamroot.template", "project-config.template.jam"
-    requires = "boost_build/1.69.0@bincrafters/stable"
+    requires = "boost_build/1.70.0@bincrafters/stable"
 
 # Below is the actual generator code
 
